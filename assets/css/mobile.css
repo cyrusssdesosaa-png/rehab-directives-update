@@ -1,0 +1,42 @@
+@media (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .navbar-brand img,
+  footer img {
+    max-width: 190px;
+    height: auto;
+  }
+
+  .navbar .nav-link {
+    font-size: 22px !important;
+    padding: 12px 8px !important;
+  }
+
+  .row > div[style*="padding"] {
+    padding: 24px 18px !important;
+  }
+
+  h1 {
+    font-size: 32px !important;
+    line-height: 1.2 !important;
+  }
+
+  p,
+  footer p {
+    font-size: 18px !important;
+  }
+
+  iframe {
+    height: 320px !important;
+  }
+
+  footer .col-md-6 p {
+    margin-top: 24px !important;
+  }
+
+  div[style*="grid-template-columns"] img {
+    height: 150px !important;
+  }
+}
